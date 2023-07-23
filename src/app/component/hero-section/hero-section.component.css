@@ -1,0 +1,114 @@
+#heading{
+    color: var(--dark-text, #222);
+text-align: center;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+}
+.searchBox
+{
+    display: flex;
+width: 550px;
+height: 50px;
+padding: 10px 5px 10px 20px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #C9C9C9;
+background: #FFF;
+margin: 0 auto;
+}
+button{
+    display: flex;
+padding: 10px 25px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+border-radius: 5px;
+background: #FF5C00;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+#date{
+    width: 120px;
+height: 50px;
+padding: 10px 10px 10px 20px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #C9C9C9;
+background: #FFF;
+margin-right:10px;
+
+    color: var(--dark-text, #222);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+nav{
+    display: inline-flex;
+align-items: flex-start;
+gap: 40px;
+    color: #FF5C00;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.card-text{
+    align-self: stretch;
+    color: var(--dark-text, #222);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.card-title{
+    color: var(--dark-text, #222);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+align-self: stretch;
+}
+.page{
+    display: inline-flex;
+padding: 10px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border-radius: 5px;
+border: 2px solid #FF5C00;
+background: #000;
+box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.35);
+
+}
+
+.pagefont{
+    color: #FF5C00;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}

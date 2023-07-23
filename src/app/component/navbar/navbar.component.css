@@ -1,0 +1,42 @@
+
+.container{
+    margin: 0;
+    padding: 0;
+    
+    background: #FF5C00;
+    max-width: 100%;
+   
+}
+ul{
+    text-decoration: none;
+ }
+
+nav>ul>li{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+  
+    padding: 10px 36px 10px 10px;
+align-items: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+position: relative;
+left: 22.5rem;
+
+
+}
+#date{
+
+    color: var(--dark-text, #222);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}

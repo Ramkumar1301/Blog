@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*Yellow Tail Font */
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+body{
+ 
+  background: #F2F2F2;
+}
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Yellowtail&display=swap');
+
+
+  
+
+/*Bootstrap*/
